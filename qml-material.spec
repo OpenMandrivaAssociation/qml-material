@@ -30,3 +30,4 @@ rm -rf %{_buildroot}%{_qt5_libdir}/qt5/tests/tst_material/tst_material
 %files
 %dir %{_qt5_libdir}/qt5/qml/Material
 %{_qt5_libdir}/qt5/qml/Material/*
+%{_qt5_libdir}//qt5/tests/tst_material/tst_material
