@@ -24,6 +24,6 @@ Google's Material Design.
 %make
 
 %install
-%makeinstall_std
+%makeinstall_std INSTALL_ROOT=%{buildroot}
 
 %files
