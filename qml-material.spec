@@ -27,5 +27,5 @@ Google's Material Design.
 %makeinstall_std INSTALL_ROOT=%{buildroot}
 
 %files
-%dir %{_qt5_libdir}/qml/Material
-%{_qt5_libdir}/qml/Material/*
+%dir %{_qt5_libdir}/qt5/qml/Material
+%{_qt5_libdir}/qt5/qml/Material/*
