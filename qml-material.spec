@@ -1,7 +1,7 @@
 %define debug_package %nil
 %define snap 20150109
 
-Summary:	Quantum desktop shell
+Summary:	QML Material
 Name:		qml-material
 Version:	0.0.0
 Release:	0.%{snap}.1
