@@ -1,5 +1,5 @@
 %define debug_package %nil
-%define snap 20150203
+%define snap	20150325
 
 Summary:	QML Material
 Name:		qml-material
@@ -11,7 +11,7 @@ URL:		https://github.com/quantum-os/qml-material
 # git clone https://github.com/papyros/qml-material.git
 # git archive --format=tar --prefix qml-material-0.0.0-$(date +%Y%m%d)/ HEAD | xz -vf > qml-material-0.0.0-$(date +%Y%m%d).tar.xz
 Source0:	%{name}-%{version}-%{snap}.tar.xz
-BuildRequires:	qt5-devel
+BuildRequires:	pkgconfig(Qt5QuickTest)
 
 %description
 This is a library of QML widgets implementing 
