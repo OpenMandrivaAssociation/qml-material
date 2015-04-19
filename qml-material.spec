@@ -1,22 +1,22 @@
 %define debug_package %nil
-%define snap	20150408
+%define snap	20150419
 
-Summary:	QML Material
+Summary:	Material Design implemented in QtQuick
 Name:		qml-material
-Version:	0.0.0
+Version:	0.0.6
 Release:	1.%{snap}.1
 License:	GPLv2
 Group:		Graphical desktop/Other
-URL:		https://github.com/quantum-os/qml-material
+URL:		https://github.com/papyros/qml-material
 # git clone https://github.com/papyros/qml-material.git
-# git archive --format=tar --prefix qml-material-0.0.0-$(date +%Y%m%d)/ HEAD | xz -vf > qml-material-0.0.0-$(date +%Y%m%d).tar.xz
+# git archive --format=tar --prefix qml-material-0.0.6-$(date +%Y%m%d)/ HEAD | xz -vf > qml-material-0.0.6-$(date +%Y%m%d).tar.xz
 Source0:	%{name}-%{version}-%{snap}.tar.xz
 BuildRequires:	qt5-devel
 BuildRequires:	pkgconfig(Qt5QuickTest)
 BuildRequires:	pkgconfig(Qt5Qml)
 
 %description
-This is a library of QML widgets implementing 
+This is a library of QML widgets implementing
 Google's Material Design.
 
 %prep
