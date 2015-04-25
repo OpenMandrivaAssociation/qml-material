@@ -32,5 +32,8 @@ rm -rf %{_buildroot}%{_qt5_libdir}/qt5/tests/tst_material/tst_material
 
 %files
 %dir %{_qt5_libdir}/qt5/qml/Material
+%dir %{_qt5_libdir}/qml/QtQuick/Controls/Styles/Material
 %{_qt5_libdir}/qt5/qml/Material/*
-%{_qt5_libdir}//qt5/tests/tst_material/tst_material
+%{_qt5_libdir}/qt5/tests/tst_material/tst_material
+%{_qt5_libdir}/qml/QtQuick/Controls/Styles/Material/*.qml
+%{_qt5_libdir}/qml/QtQuick/Controls/Styles/Material/qmldir
