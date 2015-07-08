@@ -1,5 +1,5 @@
 %define debug_package %nil
-%define snap	20150425
+%define snap	20150709
 
 Summary:	Material Design implemented in QtQuick
 Name:		qml-material
